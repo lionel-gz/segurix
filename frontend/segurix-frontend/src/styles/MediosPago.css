@@ -1,0 +1,150 @@
+.medios-pago {
+    flex: 1;
+    padding: 40px;
+}
+
+.medios-pago-header {
+    margin-bottom: 30px;
+}
+
+.medios-pago-header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.medios-pago-header p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.panel-medios-pago {
+    background-color: white;
+    border-radius: 12px;
+    padding: 28px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.panel-medios-pago-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.panel-medios-pago-header h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.panel-medios-pago-header p {
+    color: #6b7280;
+    font-size: 13px;
+}
+
+.btn-nuevo-medio-pago {
+    background-color: #1E4638;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-nuevo-medio-pago:hover {
+    background-color: #16382d;
+}
+
+.lista-medios-pago {
+    display: flex;
+    flex-direction: column;
+}
+
+.medio-pago-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.medio-pago-item:last-child {
+    border-bottom: none;
+}
+
+.medio-pago-item span {
+    font-size: 14px;
+    color: #333;
+}
+
+.medio-pago-item button {
+    background-color: transparent;
+    color: #1E4638;
+    border: 1px solid #1E4638;
+    padding: 7px 12px;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.medio-pago-item button:hover {
+    background-color: #1E4638;
+    color: white;
+}
+
+.formulario-medio-pago {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.campo-medio-pago {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo-medio-pago input {
+    width: 280px;
+    padding: 10px 12px;
+    border: 1px solid #d6d9de;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+}
+
+.campo-medio-pago input:focus {
+    border-color: #1E4638;
+}
+
+.error-medio-pago {
+    color: #b42318;
+    font-size: 12px;
+    margin: 0;
+}
+
+.formulario-medio-pago button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.formulario-medio-pago button:first-of-type {
+    background-color: #1E4638;
+    color: white;
+    border: none;
+}
+
+.formulario-medio-pago button:last-of-type {
+    background-color: #f1f2f4;
+    color: #444;
+    border: 1px solid #d6d9de;
+}

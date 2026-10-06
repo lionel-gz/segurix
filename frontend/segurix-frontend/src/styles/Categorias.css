@@ -1,0 +1,232 @@
+.categorias {
+    flex: 1;
+    padding: 40px;
+}
+
+.categorias-header {
+    margin-bottom: 30px;
+}
+
+.categorias-header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+}
+
+.categorias-header p {
+    color: #666;
+}
+
+.panel-categorias {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.panel-categorias-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.panel-categorias-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.panel-categorias-header p {
+    color: #888;
+    font-size: 13px;
+}
+
+.btn-nueva-categoria {
+    border: none;
+    background-color: #1E4638;
+    color: #ffffff;
+
+    padding: 10px 16px;
+    border-radius: 7px;
+
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.btn-nueva-categoria:hover {
+    background-color: #16372c;
+}
+
+.lista-categorias {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px 0;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.categoria-item:last-child {
+    border-bottom: none;
+}
+
+.categoria-item span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+.categoria-item button {
+    border: 1px solid #d1d5db;
+    background-color: #ffffff;
+    color: #444;
+
+    padding: 7px 12px;
+    border-radius: 7px;
+
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.categoria-item button:hover {
+    background-color: #f1f2f4;
+}
+
+.error-categoria {
+    color: #b42318;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+/* nueva cateroia */
+
+.btn-nueva-categoria {
+    background-color: #1E4638;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-nueva-categoria:hover {
+    background-color: #16382d;
+}
+
+
+/* formulario */
+
+.formulario-categoria {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.formulario-categoria input {
+    width: 280px;
+    padding: 10px 12px;
+    border: 1px solid #d6d9de;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+}
+
+.formulario-categoria input:focus {
+    border-color: #1E4638;
+}
+
+
+/* btn guardar */
+
+.formulario-categoria button:first-of-type {
+    background-color: #1E4638;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.formulario-categoria button:first-of-type:hover {
+    background-color: #16382d;
+}
+
+
+/* boton cancelar */
+
+.formulario-categoria button:last-of-type {
+    background-color: #f1f2f4;
+    color: #444;
+    border: 1px solid #d6d9de;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.formulario-categoria button:last-of-type:hover {
+    background-color: #e5e7eb;
+}
+
+
+/*boton de editar */
+
+.categoria-item button {
+    background-color: transparent;
+    color: #1E4638;
+    border: 1px solid #1E4638;
+    padding: 7px 12px;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.categoria-item button:hover {
+    background-color: #1E4638;
+    color: white;
+}
+
+
+
+.campo-categoria {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.error-categoria {
+    color: #b42318;
+    font-size: 12px;
+    margin: 0;
+}

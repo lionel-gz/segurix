@@ -1,0 +1,258 @@
+.gastos {
+    flex: 1;
+    padding: 40px;
+}
+
+.gastos-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.gastos-header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.gastos-header p {
+    color: #666;
+}
+
+.btn-nuevo {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: #1E4638;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-nuevo:hover {
+    background-color: #444;
+}
+
+.formulario-gasto {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 30px;
+}
+
+.formulario-gasto h2 {
+    margin-bottom: 25px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.campo label {
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.campo input,
+.campo select {
+    padding: 11px;
+    border: 1px solid #d1d5db;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.campo input:focus,
+.campo select:focus {
+    outline: none;
+    border-color: #555;
+}
+
+.acciones-formulario {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.btn-cancelar,
+.btn-guardar {
+    padding: 11px 18px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-cancelar {
+    background-color: white;
+    border: 1px solid #d1d5db;
+}
+
+.btn-guardar {
+    background-color: #222;
+    color: white;
+    border: none;
+}
+
+.btn-guardar:hover {
+    background-color: #444;
+}
+
+.lista-gastos {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.lista-gastos h2 {
+    margin-bottom: 20px;
+}
+
+.tabla-gastos {
+    width: 100%;
+}
+
+.fila {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr 1.5fr 1.7fr 1.2fr 77px;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.fila:last-child {
+    border-bottom: none;
+}
+
+.fila.encabezado {
+    color: #888;
+    font-size: 13px;
+}
+
+.fila span {
+    font-size: 14px;
+}
+
+.fila strong {
+    text-align: left;
+}
+
+.fila .btn-eliminar {
+    justify-self: end;
+    margin-right: 30px;
+}
+
+.acciones {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-editar,
+.btn-eliminar {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-editar {
+    color: #555;
+}
+
+.btn-eliminar {
+    color: #777;
+}
+
+.btn-editar:hover,
+.btn-eliminar:hover {
+    text-decoration: underline;
+}
+
+.mensaje-error {
+    color: #973024;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.sin-gastos {
+    padding: 30px;
+    text-align: center;
+    color: #777;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.filtros-gastos {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.filtros-gastos input,
+.filtros-gastos select {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.filtros-gastos input[type="text"] {
+    width: 240px;
+}
+
+.filtros-gastos select {
+    min-width: 190px;
+}
+
+.filtro-fecha {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.filtro-fecha label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.mensaje-error-carga {
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #b42318;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mensaje-error-carga p {
+    margin-bottom: 10px;
+}
+
+.btn-reintentar {
+    margin-top: 10px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: #1E4638;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-reintentar:hover {
+    opacity: 0.9;
+}

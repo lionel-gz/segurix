@@ -1,0 +1,98 @@
+.configuracion {
+    flex: 1;
+    padding: 40px;
+}
+
+.configuracion-header {
+    margin-bottom: 30px;
+}
+
+.configuracion-header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+}
+
+.configuracion-header p {
+    color: #666;
+}
+
+/* PANELES */
+
+.panel-configuracion {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 25px;
+}
+
+.panel-configuracion-header {
+    margin-bottom: 10px;
+}
+
+.panel-configuracion-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    margin-bottom: 5px;
+}
+
+.panel-configuracion-header p {
+    color: #888;
+    font-size: 13px;
+}
+
+/* ITEMS */
+
+.configuracion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.configuracion-item:last-child {
+    border-bottom: none;
+}
+
+.configuracion-item strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.configuracion-item p {
+    color: #888;
+    font-size: 13px;
+}
+
+.configuracion-item > span {
+    color: #555;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-configuracion {
+    border: 1px solid #d1d5db;
+    background-color: #ffffff;
+    color: #444;
+
+    padding: 8px 14px;
+    border-radius: 7px;
+
+    font-family: "Manrope", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.btn-configuracion:hover {
+    background-color: #f1f2f4;
+}

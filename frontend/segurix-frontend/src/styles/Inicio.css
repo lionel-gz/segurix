@@ -1,0 +1,227 @@
+.inicio {
+    flex: 1;
+    padding: 40px;
+}
+
+.inicio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.inicio-header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+}
+.inicio-header p {
+    color: #666;
+}
+
+/* TARJETAS */
+
+.resumen {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.tarjeta p {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.tarjeta h2 {
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+}
+
+.tarjeta span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #999;
+}
+
+/* PANELES */
+
+.panel-gastos,
+.panel-categorias {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.panel-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+.panel-header a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+
+.panel-header a:hover {
+    text-decoration: underline;
+}
+
+/* TABLA */
+
+.tabla-gastos {
+    width: 100%;
+}
+
+/* CATEGORÍAS */
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.categoria span {
+    color: #555;
+}
+
+.categoria strong {
+    font-size: 14px;
+}
+
+/* TABLA DE ÚLTIMOS GASTOS */
+
+.fila {
+    display: grid;
+    grid-template-columns: 2fr 1.3fr 1.5fr 1.2fr;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.fila:last-child {
+    border-bottom: none;
+}
+
+.fila.encabezado {
+    color: #888;
+    font-size: 13px;
+}
+
+.fila span {
+    font-size: 14px;
+}
+
+.fila strong {
+    text-align: left;
+}
+
+.btn-nuevo {
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: #1E4638;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-nuevo:hover {
+    background-color: #444;
+}
+
+.btn-ver-todos {
+    border: 1px solid #d1d5db;
+    background-color: #ffffff;
+    color: #444;
+    padding: 8px 14px;
+    border-radius: 7px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn-ver-todos:hover {
+    background-color: #f1f2f4;
+}
+
+.mensaje-cargando {
+    padding: 40px;
+
+    text-align: center;
+
+    color: #666666;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mensaje-error {
+    padding: 40px;
+    text-align: center;
+    color: #b42318;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mensaje-error-carga {
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #b42318;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mensaje-error-carga p {
+    margin-bottom: 10px;
+}
+
+.btn-reintentar {
+    margin-top: 10px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: #1E4638;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-reintentar:hover {
+    opacity: 0.9;
+}
